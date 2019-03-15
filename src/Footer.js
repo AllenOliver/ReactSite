@@ -12,7 +12,7 @@ class Footer extends Component {
             <div class="col-lg-4 text-center">I stay at the bottom of the viewport! <span class="small"><br />Unless the page content pushes me further.</span></div>
             <div class="col-lg-4 text-center " >
                 <div className="row justify-content-center">
-                    <h3 className="text-center underlined">Social</h3>
+                    <h3 className="text-center" id="socialHeaderText">Social</h3>
                 </div>
                 <hr/>
                 <div className="row justify-content-center">
