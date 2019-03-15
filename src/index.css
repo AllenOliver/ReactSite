@@ -44,8 +44,17 @@ hr {
   text-align: center;
 
 }
-#socialList{
-  list-style: none;
+.socialList {
+  list-style-type: none;
+
+}
+.socialList li {
+  display: inline;
+}
+
+.socialList li a{
+  color: white;
+  text-decoration: none;
 }
 #socialRow{
   padding: 10px;
@@ -64,9 +73,15 @@ hr {
   #socialHeader{
     display:none;
   }
+  #socialHeaderText {
+    display:inline;
+  }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 781px) {
   #social{
     display:none;
+  }
+  #socialHeaderText {
+    display: none;
   }
 }
