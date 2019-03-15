@@ -9,7 +9,7 @@ class Footer extends Component {
         <footer class="bg-dark text-white mt-4">
     <div class="container-fluid py-3">
         <div class="row">
-            <div class="col-lg-4 text-center">I stay at the bottom of the viewport! <span class="small"><br />Unless the page content pushes me further.</span></div>
+            <div class="col-lg-4 text-center">We should <span class="small"><br />put an ad here...</span></div>
             <div class="col-lg-4 text-center " >
                 <div className="row justify-content-center">
                     <h3 className="text-center" id="socialHeaderText">Social</h3>

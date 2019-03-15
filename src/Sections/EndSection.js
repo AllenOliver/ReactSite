@@ -6,36 +6,55 @@ class EndSection extends React.Component {
     render(){
         return(
             <div className="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10 " >
-                    <div class="row justify-content-center">
-                        <h2 align="center">This is a test text</h2>
-                    </div>
-                    <div class="row"></div>
-                    <div class="row justify-content-center">
-                    <p>
-                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Link with href
-                        </a>
-                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            Button with data-target
+                <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is this page about?
                         </button>
-                    </p>
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                        </div>
+                    </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                            We cannot be sure, but it can't be good.
+                    </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What is this?
+                        </button>
+                    </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            An accordion.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1"></div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Made with react?
+                        </button>
+                    </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Yeah.
+                        </div>
+                    </div>
+                </div>
+                </div>
                 <script>
                     document.getElementsByClassName('.collapse').collapse();
                 </script>
             </div>
-
-
-            //<BaseSection {...this.props.text} {...this.props.id}  />
         );
     }
 }
