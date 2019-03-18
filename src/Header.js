@@ -24,11 +24,6 @@ class Header extends Component {
             </li>
         </ul>
         <div class="justify-content-center" id="socialHeader"></div>
-        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-            <li class="nav-item">
-                <a className="nav-link" href="#">Right</a>
-            </li>
-        </ul>
     </div>
 </nav>
 
