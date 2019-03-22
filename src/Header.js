@@ -6,7 +6,7 @@ class Header extends Component {
     return (
 
         
-<nav className="navbar navbar-dark navbar-expand-md bg-dark">
+<nav className="navbar navbar-dark fixed-top navbar-expand-md bg-dark">
     <a href="/" className="navbar-brand">Brand</a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
         <span className="navbar-toggler-icon"></span>

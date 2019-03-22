@@ -3,10 +3,10 @@ particlesJS('particles-js',
     {
         "particles": {
             "number": {
-                "value": 100,
+                "value": 3000,
                 "density": {
                     "enable": true,
-                    "value_area": 800
+                    "value_area": 1920
                 }
             },
             "color": {
@@ -107,7 +107,7 @@ particlesJS('particles-js',
             }
         },
         "retina_detect": true,
-        "bubbles": {
+        "BubblesArea": {
             "hide_card": false,
             "background_color": "#b61924",
             "background_image": "",
