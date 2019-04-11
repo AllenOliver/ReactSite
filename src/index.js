@@ -14,10 +14,10 @@ import Header from './Header';
 ReactDOM.render(<Header />, document.getElementById('header'));
 
 
-const sectionOne = <HeadSection text="This is a text through the header." id="headSection" />
+const sectionOne = <HeadSection text="Welcome to Cehpalomania Games!" id="headSection" />
 ReactDOM.render(sectionOne, document.getElementById('bodySectionOne'));
 
-const sectionTwo = <MidSection text="This is the middle section" id="midSection" />
+const sectionTwo = <MidSection text="We are a company developing retro inspired titles, with modern attitude!" id="midSection" />
 ReactDOM.render(sectionTwo, document.getElementById('bodySectionTwo'));
 
 ReactDOM.render(<EndSection />, document.getElementById('bodySectionThree'));

@@ -12,14 +12,14 @@ class EndSection extends React.Component {
                         <div class="card-header" id="headingOne">
                         <h2 class="mb-0">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            What is this page about?
+                            Who are you?
                             </button>
                         </h2>
                         </div>
 
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body">
-                                We cannot be sure, but it can't be good.
+                                We are a development company based in Johnson City, Tennessee. We specialize in devleoping high quality games that are fun to play and high in value!
                         </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ class EndSection extends React.Component {
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body">
-                                An accordion.
+                            This is a larger amount of text to test the width of the element.
                             </div>
                         </div>
                     </div>
